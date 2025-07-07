@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contato.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <!-- Nos links quando se esta na página de contato o link de contato some e aparece o home, para poder ir para a página inicial-->
+        <nav>
+            <ul id="menu_links">
+                <li class="links"><a href="/html/index.html">Home</a></li>
+                <li class="links"><a href="/html/sobre.html">Sobre mim</a></li>
+                <li class="links"><a href="/html/formacao.html">Formação</a></li>
+                <li class="links"><a href="/html/portfolio.html">Portfólio</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+    <!--Formulário para entrar em contato -->
+        <form class="form-contato">
+            <h2>Entre em contato:</h2>
+            <div class="linha-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            </div>
+            <div class="linha-form">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="linha-form">
+                <label for="msg">Mensagem:</label>
+                <textarea name="msg" id="msg" rows="4" placeholder="Digite sua Mensagem"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 - Desenvolvimento por Antonia Elen</p>
+    </footer>
+</body>
+
+</html>
